@@ -20,6 +20,7 @@ export const frontend = [
     {progress: '80', label: 'react-native', icon: 'devicon-react-original'},
     {progress: '65', label: 'electron', icon: 'devicon-electron-original'},
     {progress: '70', label: 'dart', icon: 'devicon-dart-plain'},
+    {progress: '15', label: 'flutter', icon: 'devicon-flutter-plain'},
 ]
 
 export const backend = [
