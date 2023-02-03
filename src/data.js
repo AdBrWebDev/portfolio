@@ -56,3 +56,12 @@ export const os = [
 export const microcontrollers = [
     {progress: '80', label: 'raspberry pi', icon: 'devicon-raspberrypi-line'},
 ]
+
+export const skillsImgs = [
+    {img: 'web.jpg', span: '2'},
+    {img: 'app.jpg', span: '1'},
+    {img: 'iot.jpg', span: '1'},
+    {img: '3dprinting.jpg', span: '2'},
+    {img: 'webservers.jpg', span: '1'},
+    {img: 'modeling.jpg', span: '2'},
+]

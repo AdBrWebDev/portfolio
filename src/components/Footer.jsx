@@ -5,9 +5,32 @@ export default function Footer(){
     const [subject, setSubject] = useState("")
     const [text, setText] = useState("")
 
+    /*const submit = async() => {
+        let testAccount = await nodemailer.createTestAccount();
+
+        let transporter = nodemailer.createTransport({
+            host: "smtp.ethereal.email",
+            port: 587,
+            secure: true,
+            auth: {
+              user: testAccount.user,
+              pass: testAccount.pass,
+            },
+          });
+
+          await transporter.sendMail({
+            from: mail,
+            to: "broskoadam@gmail.com", 
+            subject: subject, 
+            text: text,
+            html: subject,
+          });
+    }*/
+
     return(
         <>
-            <div className="container mx-auto text-center pb-5 my-10 divide-y">
+        <div>
+            <div className="container mx-auto text-center pb-5 my-10">
                 <div className="grid xl:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
                     <div>
                         <h1>Contact</h1>
@@ -23,12 +46,12 @@ export default function Footer(){
                         <div className='mt-20 pt-10'>
                             <h1 className="mb-2">Follow me</h1>
                         </div>
-                            <a href="https://www.linkedin.com/in/adam-brosko-a90785243/"><button type="button" className="shadow-inner"><i className="fa fa-linkedin-square" style={{"transform": "scale(2)", color: "#1aa3ff", fontWeight: "bold"}}></i></button></a>
+                            <a href="https://www.linkedin.com/in/adam-brosko-a90785243/"><button onClick={() => {}} type="button" className="shadow-inner"><i className="fa fa-linkedin-square" style={{"transform": "scale(2)", color: "#1aa3ff", fontWeight: "bold"}}></i></button></a>
                     
                     </div>
                 </div>
             </div>
-                        
+        </div>
         </>
     )
 }
