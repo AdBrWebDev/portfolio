@@ -22,13 +22,6 @@ export default function About(){
                         </ul>
                     </div>
                 </div>
-                <h1 className="text-4xl mb-5 text-center mt-20">My strengths</h1>
-                <div className="grid xl:grid-cols-4 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 text-center">
-                    <div>Precise</div>
-                    <div>Fast learning</div>
-                    <div>Fast</div>
-                    <div>Responsive</div>
-                </div>
                 </div>
             </section>
         </>
