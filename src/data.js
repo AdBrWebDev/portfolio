@@ -56,3 +56,12 @@ export const os = [
 export const microcontrollers = [
     {progress: '80', label: 'raspberry pi', icon: 'devicon-raspberrypi-line'},
 ]
+
+export const gridInterests = [
+    {img: 'website.jpg', spanRow: 2, spanCol: 2},
+    {img: 'mobile-app.png', spanRow: null, spanCol: null},
+    {img: 'iot.png', spanRow: null, spanCol: 2},
+    {img: 'desktop-app.png', spanRow: null, spanCol: null},
+    {img: '3d-printing.png', spanRow: null, spanCol: 2},
+    {img: 'server.jpg', spanRow: 2, spanCol: 2},
+]
