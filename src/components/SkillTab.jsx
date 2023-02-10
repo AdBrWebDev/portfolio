@@ -5,7 +5,7 @@ export default function SkillTab(props){
     const color = data.progress < 25 ? 'blue' : data.progress < 50 ? 'green' : data.progress < 75 ? 'yellow' : data.progress < 92 ? 'red' : 'purple'
 
     return(
-        <Paper id="cart" withBorder className="shadow-inner" radius="md" p="xs" key={props.label}>
+        <Paper id="cart" withBorder className={`shadow-xl shadow-${color}-200`} radius="md" p="xs" key={props.label}>
         <Group>
           <RingProgress
             size={80}
