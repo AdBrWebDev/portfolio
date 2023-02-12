@@ -12,7 +12,8 @@ export const frontend = [
     {progress: '85', label: 'material-ui', icon: 'devicon-materialui-plain'},
     {progress: '60', label: 'jquery', icon: 'devicon-jquery-plain'},
     {progress: '85', label: 'chakra-ui', icon: ''},
-    {progress: '60', label: 'mantine', icon: ''},
+    {progress: '60', label: 'mantine ui', icon: ''},
+    {progress: '70', label: 'native base', icon: ''},
     {progress: '70', label: 'tailwind-css', icon: 'devicon-tailwindcss-original-wordmark'},
     {progress: '85', label: 'bulma', icon: 'devicon-bulma-plain'},
     {progress: '70', label: 'typecript', icon: 'devicon-typescript-plain'},
@@ -26,17 +27,17 @@ export const frontend = [
 
 export const backend = [
     {progress: '70', label: 'node-js', icon: 'devicon-nodejs-plain'},
-    {progress: '49', label: 'python', icon: 'devicon-python-plain'},
+    {progress: '50', label: 'python', icon: 'devicon-python-plain'},
     {progress: '80', label: 'php', icon: 'devicon-php-plain'},
     {progress: '90', label: 'mysql', icon: 'devicon-mysql-plain'},
     {progress: '50', label: 'mongo', icon: 'devicon-mongodb-plain'},
     {progress: '50', label: 'firebase', icon: 'devicon-firebase-plain'},
     {progress: '55', label: 'cassandra', icon: ''},
     {progress: '20', label: 'infuxdb', icon: ''},
-    {progress: '55', label: 'kubernetes', icon: 'devicon-kubernetes-plain'},
-    {progress: '55', label: 'docker', icon: 'devicon-docker-plain'},
+    {progress: '50', label: 'kubernetes', icon: 'devicon-kubernetes-plain'},
+    {progress: '50', label: 'docker', icon: 'devicon-docker-plain'},
     {progress: '75', label: 'express.js', icon: 'devicon-express-original'},
-    {progress: '40', label: 'redis', icon: 'devicon-redis-plain'},
+    {progress: '30', label: 'redis', icon: 'devicon-redis-plain'},
 ]
 
 export const servers = [
@@ -45,7 +46,7 @@ export const servers = [
 ]
 
 export const devOps = [
-    {progress: '40', label: 'python', icon: 'devicon-python-plain'},
+    {progress: '50', label: 'python', icon: 'devicon-python-plain'},
     {progress: '70', label: 'node-js', icon: 'devicon-nodejs-plain'},
     {progress: '20', label: 'go', icon: 'devicon-go-original-wordmark'},
 ]
@@ -56,7 +57,7 @@ export const os = [
 ]
 
 export const microcontrollers = [
-    {progress: '80', label: 'raspberry pi', icon: 'devicon-raspberrypi-line'},
+    {progress: '70', label: 'raspberry pi', icon: 'devicon-raspberrypi-line'},
 ]
 
 export const gridInterests = [
