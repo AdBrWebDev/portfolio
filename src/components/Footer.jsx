@@ -33,6 +33,7 @@ export default function Footer(){
             <div className="container mx-auto text-center pb-5 my-10">
                 <div className="grid xl:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
                     <div>
+                        <form method="post" action="">
                         <h1>Contact</h1>
                         <input placeholder="Your mail" className="border-solid border-2 mr-2 rounded-full p-3 text-center blur:border-orange-500" type="text" value={mail} onChange={(e) => setMail(e.target.value)} />
                         <input placeholder="Subject" className="border-solid border-2 rounded-full p-3 text-center blur:border-orange-500" type="text" value={subject} onChange={(e) => setSubject(e.target.value)} />
@@ -40,6 +41,7 @@ export default function Footer(){
                         <div>
                         <button className='bg-sky-400 px-10 py-5 rounded-full shadow-xl mt-2 text-white font-sans font-xl'>Send</button>
                         </div>
+                        </form>
                     </div>
                     <div>
 
