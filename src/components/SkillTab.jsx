@@ -5,7 +5,7 @@ export default function SkillTab(props){
     const color = data.progress < 25 ? 'blue' : data.progress < 50 ? 'green' : data.progress < 75 ? 'yellow' : data.progress < 92 ? 'red' : 'purple'
 
     return(
-        <Paper id="cart" withBorder className={`shadow-lg hover:shadow-xl duration-200 hover:scale-105 hover:duration-500 cursor-pointer shadow-${color}-200 hover:shadow-${color}-300`} radius="md" p="xs" key={props.label}>
+        <Paper data-aos="fade-up" id="cart" withBorder className={`shadow-lg hover:shadow-xl duration-200 hover:scale-105 hover:duration-500 cursor-pointer shadow-${color}-200 hover:shadow-${color}-300`} radius="md" p="xs" key={props.label}>
         <Group>
           <RingProgress
             size={80}
