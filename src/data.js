@@ -1,3 +1,10 @@
+import {CgWebsite} from 'react-icons/cg'
+import {AiOutlineMobile} from 'react-icons/ai'
+import {BsWindowDesktop} from 'react-icons/bs'
+import {BiMicrochip} from 'react-icons/bi'
+import {FaServer} from 'react-icons/fa'
+import {Gi3DMeeple} from 'react-icons/gi'
+
 export const frontend = [
     {progress: '100', label: 'html5', icon: 'devicon-html5-plain'},
     {progress: '90', label: 'css3', icon: 'devicon-css3-plain'},
@@ -61,4 +68,13 @@ export const microcontrollers = [
     {progress: '75', label: 'raspberry pi', icon: 'devicon-raspberrypi-line'},
     {progress: '20', label: 'arduino', icon: 'devicon-arduino-plain'},
     {progress: '30', label: 'esp', icon: ''},
+]
+
+export const interests = [
+    {icon: <CgWebsite />, title: 'web sites/apps'},
+    {icon: <AiOutlineMobile/>, title: 'mobile apps'},
+    {icon: <BsWindowDesktop />, title: 'desktop apps'},
+    {icon: <BiMicrochip />, title: 'IOT'},
+    {icon: <FaServer />, title: 'web servers'},
+    {icon: <Gi3DMeeple />, title: '3d modeling and printing'},
 ]
