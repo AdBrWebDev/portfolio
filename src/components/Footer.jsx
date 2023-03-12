@@ -35,11 +35,11 @@ export default function Footer(){
                     <div>
                         <form method="post" action="">
                         <h1>Contact</h1>
-                        <input placeholder="Your mail" className="border-solid border-2 mr-2 rounded-full p-3 text-center blur:border-orange-500" type="text" value={mail} onChange={(e) => setMail(e.target.value)} />
-                        <input placeholder="Subject" className="border-solid border-2 rounded-full p-3 text-center blur:border-orange-500" type="text" value={subject} onChange={(e) => setSubject(e.target.value)} />
-                        <textarea rows="8" cols="50" placeholder="Message" className="border-solid border-2 rounded-xl p-3 blur:border-orange-500 mt-2" value={text} onChange={(e) => setText(e.target.value)}></textarea>
+                        <input disabled="true" placeholder="Your mail" className="border-solid border-2 mr-2 rounded-full p-3 text-center blur:border-orange-500" type="text" value={mail} onChange={(e) => setMail(e.target.value)} />
+                        <input disabled="true" placeholder="Subject" className="border-solid border-2 rounded-full p-3 text-center blur:border-orange-500" type="text" value={subject} onChange={(e) => setSubject(e.target.value)} />
+                        <textarea disabled="true" rows="8" cols="50" placeholder="Message" className="border-solid border-2 rounded-xl p-3 blur:border-orange-500 mt-2" value={text} onChange={(e) => setText(e.target.value)}></textarea>
                         <div>
-                        <button className='bg-sky-400 px-10 py-5 rounded-full shadow-xl mt-2 text-white font-sans font-xl'>Send</button>
+                        <button disabled="true" className='bg-sky-400 px-10 py-5 rounded-full shadow-xl mt-2 text-white font-sans font-xl'>Send</button>
                         </div>
                         </form>
                     </div>
@@ -51,6 +51,9 @@ export default function Footer(){
                             <a href="https://www.linkedin.com/in/adam-brosko-a90785243/"><button onClick={() => {}} type="button" className="shadow-inner"><i className="fa fa-linkedin-square" style={{"transform": "scale(2)", color: "#1aa3ff", fontWeight: "bold"}}></i></button></a>
                     
                     </div>
+                </div>
+                <div style={{marginTop: 70}}>
+                    <span>Copyright <i>&#169;</i> 2023</span>
                 </div>
             </div>
         </div>

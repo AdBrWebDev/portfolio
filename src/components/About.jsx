@@ -13,6 +13,7 @@ export default function About(){
                     <p className="text-center mx-auto" style={{width: "95%"}}>I'm fullstack developer in Slovakia. I love to try new things (new technologies), I have serious passion for design and dynamic user experiences.</p>
                     </div>
                     <div className="text-center">
+                        <h1 style={{marginTop: "8%"}}>I'm interested in</h1>
                         <div className="grid xl:grid-cols-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-5">
                             {interests.map((inter, index) => <InterestCard index={index} data={inter} />)}
                         </div>
