@@ -53,7 +53,7 @@ export default function Footer(){
                     </div>
                 </div>
                 <div style={{marginTop: 70}}>
-                    <span>Copyright <i>&#169;</i> 2023</span>
+                    <span>Copyright <i>&#169;</i> {new Date().getFullYear()}</span>
                 </div>
             </div>
         </div>
