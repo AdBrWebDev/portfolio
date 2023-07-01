@@ -3,7 +3,7 @@ services:
     image: node:18-alpine
     command: sh -c "npm install && npm run dev"
     ports: 
-      - 3000:3000
+      - localhost:3000:3000
     working_dir: /app
     volumes:
       - ./:/app
@@ -12,5 +12,4 @@ services:
       MYSQL_USER: root
       MYSQL_PASSWORD: secret
       MYSQL_DB: todos
-volumes:
-  todo-mysql-data:
+
