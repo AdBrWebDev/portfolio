@@ -12,7 +12,7 @@ export const frontend = [
     {progress: '95', label: 'git', icon: 'devicon-git-plain'},
     {progress: '95', label: 'github', icon: 'devicon-github-original'},
     {progress: '95', label: 'npm', icon: 'devicon-npm-original-wordmark'},
-    {progress: '95', label: 'yarn', icon: 'devicon-yarn-plain'},
+    {progress: '90', label: 'yarn', icon: 'devicon-yarn-plain'},
     {progress: '85', label: 'React', icon: 'devicon-react-original'},
     {progress: '70', label: 'Vue', icon: 'devicon-vuejs-plain'},
     {progress: '90', label: 'bootstrap', icon: 'devicon-bootstrap-plain'},
@@ -21,7 +21,7 @@ export const frontend = [
     {progress: '90', label: 'chakra-ui', icon: ''},
     {progress: '70', label: 'mantine ui', icon: ''},
     {progress: '80', label: 'native base', icon: ''},
-    {progress: '70', label: 'tailwind-css', icon: 'devicon-tailwindcss-original-wordmark'},
+    {progress: '75', label: 'tailwind-css', icon: 'devicon-tailwindcss-original-wordmark'},
     {progress: '90', label: 'bulma', icon: 'devicon-bulma-plain'},
     {progress: '70', label: 'typecript', icon: 'devicon-typescript-plain'},
     {progress: '70', label: 'redux', icon: 'devicon-redux-original'},
@@ -30,14 +30,14 @@ export const frontend = [
     {progress: '65', label: 'electron', icon: 'devicon-electron-original'},
     {progress: '50', label: 'dart', icon: 'devicon-dart-plain'},
     {progress: '10', label: 'flutter', icon: 'devicon-flutter-plain'},
-    {progress: '90', label: 'pnpm', icon: ''},
+    {progress: '95', label: 'pnpm', icon: ''},
 ]
 
 export const backend = [
     {progress: '70', label: 'node-js', icon: 'devicon-nodejs-plain'},
     {progress: '40', label: 'python', icon: 'devicon-python-plain'},
     {progress: '80', label: 'php', icon: 'devicon-php-plain'},
-    {progress: '95', label: 'mysql', icon: 'devicon-mysql-plain'},
+    {progress: '100', label: 'mysql', icon: 'devicon-mysql-plain'},
     {progress: '40', label: 'mongo', icon: 'devicon-mongodb-plain'},
     {progress: '40', label: 'firebase', icon: 'devicon-firebase-plain'},
     {progress: '70', label: 'cassandra', icon: ''},
@@ -50,7 +50,7 @@ export const backend = [
 ]
 
 export const servers = [
-    {progress: '45', label: 'nginx', icon: 'devicon-nginx-original'},
+    {progress: '50', label: 'nginx', icon: 'devicon-nginx-original'},
     {progress: '60', label: 'apache', icon: 'devicon-apache-plain'},
 ]
 

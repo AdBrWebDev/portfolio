@@ -29,7 +29,7 @@ export default function Footer(){
 
     return(
         <>
-        <div data-aos="fade-up" data-aos-duration="500" data-aos-offset="150">
+        <div>
             <div className="container mx-auto text-center pb-5 my-10">
                 <div className="grid xl:grid-cols-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
                     <div>
@@ -53,7 +53,7 @@ export default function Footer(){
                     </div>
                 </div>
                 <div style={{marginTop: 70}}>
-                    <span>Copyright <i>&#169;</i> 2023</span>
+                    <span>Copyright <i>&#169;</i> {new Date().getFullYear()}</span>
                 </div>
             </div>
         </div>
