@@ -1,0 +1,10 @@
+
+{
+  "appId": "com.portfolio.sk",
+  "appName": "sample",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+  
+}

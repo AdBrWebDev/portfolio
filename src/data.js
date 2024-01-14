@@ -40,12 +40,13 @@ export const backend = [
     {progress: '95', label: 'mysql', icon: 'devicon-mysql-plain'},
     {progress: '40', label: 'mongo', icon: 'devicon-mongodb-plain'},
     {progress: '40', label: 'firebase', icon: 'devicon-firebase-plain'},
-    {progress: '40', label: 'cassandra', icon: ''},
-    {progress: '20', label: 'infuxdb', icon: ''},
+    {progress: '70', label: 'cassandra', icon: ''},
+    {progress: '70', label: 'infuxdb', icon: ''},
     {progress: '40', label: 'kubernetes', icon: 'devicon-kubernetes-plain'},
     {progress: '40', label: 'docker', icon: 'devicon-docker-plain'},
     {progress: '75', label: 'express.js', icon: 'devicon-express-original'},
-    {progress: '20', label: 'redis', icon: 'devicon-redis-plain'},
+    {progress: '70', label: 'redis', icon: 'devicon-redis-plain'},
+    {progress: '70', label: 'laravel', icon: 'devicon-laravel-plain'},
 ]
 
 export const servers = [
@@ -56,7 +57,7 @@ export const servers = [
 export const devOps = [
     {progress: '40', label: 'python', icon: 'devicon-python-plain'},
     {progress: '70', label: 'node-js', icon: 'devicon-nodejs-plain'},
-    {progress: '15', label: 'go', icon: 'devicon-go-original-wordmark'},
+    {progress: '50', label: 'go', icon: 'devicon-go-original-wordmark'},
 ]
 
 export const os = [
@@ -65,7 +66,7 @@ export const os = [
 ]
 
 export const microcontrollers = [
-    {progress: '75', label: 'raspberry pi', icon: 'devicon-raspberrypi-line'},
+    {progress: '70', label: 'raspberry pi', icon: 'devicon-raspberrypi-line'},
     {progress: '20', label: 'arduino', icon: 'devicon-arduino-plain'},
     {progress: '30', label: 'esp', icon: ''},
 ]
